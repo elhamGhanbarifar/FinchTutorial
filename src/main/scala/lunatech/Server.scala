@@ -7,7 +7,7 @@ import com.twitter.util.Await
 import com.typesafe.config.ConfigFactory
 import lunatech.Endpoints._
 import lunatech.controllers.SqlController
-import lunatech.filters.{HeaderValidator, HeaderValidator$}
+import lunatech.filters.HeaderValidator
 import lunatech.utils.ServiceHelper
 
 abstract class ServerConfig {
